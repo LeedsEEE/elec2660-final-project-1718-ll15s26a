@@ -27,7 +27,7 @@
                                         <fragment content="8">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -44,7 +44,7 @@
                                         <fragment content="9">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -61,7 +61,7 @@
                                         <fragment content="4">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -78,7 +78,7 @@
                                         <fragment content="5">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -95,7 +95,7 @@
                                         <fragment content="6">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -112,7 +112,7 @@
                                         <fragment content="1">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -129,7 +129,7 @@
                                         <fragment content="2">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -146,7 +146,7 @@
                                         <fragment content="3">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -163,7 +163,7 @@
                                         <fragment content="^">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -180,7 +180,7 @@
                                         <fragment content="0">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -197,7 +197,7 @@
                                         <fragment content=".">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -214,7 +214,7 @@
                                         <fragment content="e^">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -358,7 +358,7 @@
                                         <fragment content="7">
                                             <attributes>
                                                 <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <font key="NSFont" size="35" name=".SFNSDisplay"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
