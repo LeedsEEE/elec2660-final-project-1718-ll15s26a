@@ -6,7 +6,7 @@
 //  Copyright © 2017 Samia Abuzant. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ELEC2240.h"
 
 @interface SecondViewController ()
 
@@ -26,4 +26,15 @@
 }
 
 
+- (IBAction)EgValue:(id)sender {
+   
+}
+
+- (IBAction)Slider:(id)sender {
+    UISlider *slider = (UISlider *)sender;
+    NSString *newValue;
+    newValue=[NSString stringWithFormat:@"%.2f",slider.value];
+    self.SliderLabel.text=newValue;
+}
 @end
+

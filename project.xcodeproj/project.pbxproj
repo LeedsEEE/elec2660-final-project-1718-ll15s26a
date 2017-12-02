@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B40F56211FC45806006D42F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F56201FC45806006D42F5 /* AppDelegate.m */; };
-		B40F56241FC45806006D42F5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F56231FC45806006D42F5 /* FirstViewController.m */; };
-		B40F56271FC45806006D42F5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F56261FC45806006D42F5 /* SecondViewController.m */; };
+		B40F56241FC45806006D42F5 /* BasicSciCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F56231FC45806006D42F5 /* BasicSciCalculator.m */; };
+		B40F56271FC45806006D42F5 /* ELEC2240.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F56261FC45806006D42F5 /* ELEC2240.m */; };
 		B40F562A1FC45806006D42F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40F56281FC45806006D42F5 /* Main.storyboard */; };
 		B40F562C1FC45806006D42F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40F562B1FC45806006D42F5 /* Assets.xcassets */; };
 		B40F562F1FC45806006D42F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40F562D1FC45806006D42F5 /* LaunchScreen.storyboard */; };
@@ -41,10 +41,10 @@
 		B40F561C1FC45806006D42F5 /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40F561F1FC45806006D42F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B40F56201FC45806006D42F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B40F56221FC45806006D42F5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B40F56231FC45806006D42F5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B40F56251FC45806006D42F5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B40F56261FC45806006D42F5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B40F56221FC45806006D42F5 /* BasicSciCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicSciCalculator.h; sourceTree = "<group>"; };
+		B40F56231FC45806006D42F5 /* BasicSciCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicSciCalculator.m; sourceTree = "<group>"; };
+		B40F56251FC45806006D42F5 /* ELEC2240.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELEC2240.h; sourceTree = "<group>"; };
+		B40F56261FC45806006D42F5 /* ELEC2240.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELEC2240.m; sourceTree = "<group>"; };
 		B40F56291FC45806006D42F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B40F562B1FC45806006D42F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B40F562E1FC45806006D42F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,10 +110,10 @@
 			children = (
 				B40F561F1FC45806006D42F5 /* AppDelegate.h */,
 				B40F56201FC45806006D42F5 /* AppDelegate.m */,
-				B40F56221FC45806006D42F5 /* FirstViewController.h */,
-				B40F56231FC45806006D42F5 /* FirstViewController.m */,
-				B40F56251FC45806006D42F5 /* SecondViewController.h */,
-				B40F56261FC45806006D42F5 /* SecondViewController.m */,
+				B40F56221FC45806006D42F5 /* BasicSciCalculator.h */,
+				B40F56231FC45806006D42F5 /* BasicSciCalculator.m */,
+				B40F56251FC45806006D42F5 /* ELEC2240.h */,
+				B40F56261FC45806006D42F5 /* ELEC2240.m */,
 				B40F56281FC45806006D42F5 /* Main.storyboard */,
 				B40F56541FC45B96006D42F5 /* App logo.png */,
 				B4D955F41FC595590041151E /* calc screen.PNG */,
@@ -278,10 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40F56271FC45806006D42F5 /* SecondViewController.m in Sources */,
+				B40F56271FC45806006D42F5 /* ELEC2240.m in Sources */,
 				B40F56211FC45806006D42F5 /* AppDelegate.m in Sources */,
 				B40F56321FC45806006D42F5 /* main.m in Sources */,
-				B40F56241FC45806006D42F5 /* FirstViewController.m in Sources */,
+				B40F56241FC45806006D42F5 /* BasicSciCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#define PLUSE 0 //defining the pluse operation
+#define PLUS 0 //defining the pluse operation
 #define MINUS 1 //defining the minus operation
 #define MULTIPLY 2 //defining the multiply operation
 #define DIVIDE 3 //defining the divide operation
@@ -17,15 +17,15 @@
     NSInteger num1; //defing the first number variable
     NSInteger num2; //defing the second input number
     double total; //this willl be the total of the inputed numbers after applying the operation
-    NSString *theNumber; //this is a string used to sotre the entered numbers
+    NSString *enteredNo; //this is a string used to sotre the entered numbers
     NSInteger operation; //this defines the operations and functions used in this calculator part of the app
-    
+    IBOutlet UILabel *lblText;
 }
 @property (strong, nonatomic) IBOutlet UILabel *lblText;
 @property NSInteger num1;
 @property  NSInteger num2;
 @property double total;
-@property (strong, nonatomic) NSString *theNumber;
+@property (strong, nonatomic) NSString *enteredNo;
 @property NSInteger operation;
 
 @end
