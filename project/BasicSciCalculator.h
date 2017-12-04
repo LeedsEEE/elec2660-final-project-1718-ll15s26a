@@ -7,26 +7,33 @@
 //
 
 #import <UIKit/UIKit.h>
-#define PLUS 0 //defining the pluse operation
-#define MINUS 1 //defining the minus operation
-#define MULTIPLY 2 //defining the multiply operation
-#define DIVIDE 3 //defining the divide operation
-
+#define PLUS 0
+#define MINUS 1
+#define MULTIPLY 2
+#define DIVIDE 3
 @interface FirstViewController : UIViewController
 {
-    NSInteger num1; //defing the first number variable
-    NSInteger num2; //defing the second input number
-    double total; //this willl be the total of the inputed numbers after applying the operation
-    NSString *enteredNo; //this is a string used to sotre the entered numbers
-    NSInteger operation; //this defines the operations and functions used in this calculator part of the app
+    NSInteger num1;
+    NSInteger num2;
+    NSInteger operation;
+    NSString *enteredNo;
+    double total;
     IBOutlet UILabel *lblText;
+    
 }
 @property (strong, nonatomic) IBOutlet UILabel *lblText;
 @property NSInteger num1;
-@property  NSInteger num2;
+@property NSInteger num2;
+@property NSInteger operation;
 @property double total;
 @property (strong, nonatomic) NSString *enteredNo;
-@property NSInteger operation;
 
+- (IBAction)setMultiply:(id)sender;
+- (IBAction)setDivide:(id)sender;
+- (IBAction)setPlus:(id)sender;
+- (IBAction)setMinus:(id)sender;
+- (IBAction)clearTotal:(id)sender;
+- (IBAction)DEL:(id)sender;
+- (IBAction)DecimalPoint:(id)sender;
 @end
 

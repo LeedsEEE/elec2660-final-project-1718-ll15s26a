@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface  SecondViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *TitleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *InstLabel;
 @property (strong, nonatomic) IBOutlet UILabel *TempLabel;

@@ -34,7 +34,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press8:" destination="9pv-A4-QxB" eventType="touchUpInside" id="IAW-K1-0bR"/>
+                                    <action selector="Press8:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hpS-Kk-sM7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVF-H8-JZK">
@@ -54,7 +54,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press9:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hHk-Ii-5Ja"/>
+                                    <action selector="Press9:" destination="9pv-A4-QxB" eventType="touchUpInside" id="giF-Z9-dVx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9h-Lj-Lo0">
@@ -74,7 +74,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press4:" destination="9pv-A4-QxB" eventType="touchUpInside" id="jk3-vn-Ged"/>
+                                    <action selector="Press4:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Kcw-Xy-83U"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xkT-lu-xIk">
@@ -94,7 +94,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press5:" destination="9pv-A4-QxB" eventType="touchUpInside" id="OES-7C-ISd"/>
+                                    <action selector="Press5:" destination="9pv-A4-QxB" eventType="touchUpInside" id="AXj-1k-SSw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXd-Yv-G5h">
@@ -114,7 +114,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press6:" destination="9pv-A4-QxB" eventType="touchUpInside" id="9N5-eD-VyG"/>
+                                    <action selector="Press6:" destination="9pv-A4-QxB" eventType="touchUpInside" id="mXw-Et-Cb1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yt3-pD-4AH">
@@ -134,7 +134,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press1:" destination="9pv-A4-QxB" eventType="touchUpInside" id="6aN-es-eYL"/>
+                                    <action selector="Press1:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Ik7-3p-ltn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGV-K0-ofd">
@@ -154,7 +154,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press2:" destination="9pv-A4-QxB" eventType="touchUpInside" id="BOh-VW-6QY"/>
+                                    <action selector="Press2:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Zgj-xq-tIn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iaH-iw-DZk">
@@ -174,7 +174,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press3:" destination="9pv-A4-QxB" eventType="touchUpInside" id="cgi-mu-EhL"/>
+                                    <action selector="Press3:" destination="9pv-A4-QxB" eventType="touchUpInside" id="a2D-F1-dGH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zsm-Yr-Syx">
@@ -211,7 +211,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press0:" destination="9pv-A4-QxB" eventType="touchUpInside" id="azq-f7-D82"/>
+                                    <action selector="Press0:" destination="9pv-A4-QxB" eventType="touchUpInside" id="79q-fR-6w6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PDH-JJ-LUX">
@@ -231,7 +231,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="PressDecimalpoint:" destination="9pv-A4-QxB" eventType="touchUpInside" id="l4p-yI-Z7C"/>
+                                    <action selector="DecimalPoint:" destination="9pv-A4-QxB" eventType="touchUpInside" id="mdk-TN-S6T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OZ2-U4-GNu">
@@ -267,6 +267,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="DEL:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Mlp-ne-6UL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1W-ku-o6h">
                                 <rect key="frame" x="188" y="224" width="67" height="61"/>
@@ -285,7 +288,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="clearTotal:" destination="9pv-A4-QxB" eventType="touchUpInside" id="yTB-eV-dky"/>
+                                    <action selector="clearTotal:" destination="9pv-A4-QxB" eventType="touchUpInside" id="qf3-qZ-Sw9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eED-cc-VM5">
@@ -305,7 +308,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="setDivide:" destination="9pv-A4-QxB" eventType="touchUpInside" id="LDD-r9-qq0"/>
+                                    <action selector="setDivide:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hrV-YE-6fU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zm8-IV-cX6">
@@ -325,7 +328,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="setMultiply:" destination="9pv-A4-QxB" eventType="touchUpInside" id="uGX-78-6Xb"/>
+                                    <action selector="setMultiply:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Qcc-vB-X2u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OgG-Qs-RU7">
@@ -345,7 +348,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="setMinus:" destination="9pv-A4-QxB" eventType="touchUpInside" id="eyn-m3-mRN"/>
+                                    <action selector="setMinus:" destination="9pv-A4-QxB" eventType="touchUpInside" id="1dR-3n-NUy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CW7-1Z-YWp">
@@ -365,8 +368,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Plus:" destination="9pv-A4-QxB" eventType="touchUpInside" id="wk1-ip-60O"/>
-                                    <action selector="setPlus:" destination="9pv-A4-QxB" eventType="touchUpInside" id="P5d-ma-0XV"/>
+                                    <action selector="setPlus:" destination="9pv-A4-QxB" eventType="touchUpInside" id="AHh-1d-WuD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7gX-Ir-Wed">
@@ -386,19 +388,9 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="calculate:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8oi-c0-lrm"/>
+                                    <action selector="Calculate:" destination="9pv-A4-QxB" eventType="touchUpInside" id="MZt-Nw-FjG"/>
                                 </connections>
                             </button>
-                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwm-UQ-O4T">
-                                <rect key="frame" x="16" y="55" width="343" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <color key="highlightedColor" red="0.85335673989606908" green="0.88360564720812185" blue="0.84984835227647926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="shadowColor" red="0.9681868294" green="0.98027943890000002" blue="0.98988737309999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bR-Rr-vqn">
                                 <rect key="frame" x="34" y="325" width="67" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -416,16 +408,23 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Press7:" destination="9pv-A4-QxB" eventType="touchUpInside" id="LEt-QW-hk9"/>
+                                    <action selector="Press7:" destination="9pv-A4-QxB" eventType="touchUpInside" id="6Eg-Wn-ZLF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qui-FL-dBx">
+                                <rect key="frame" x="26" y="52" width="333" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77206932106598991" green="0.77206932106598991" blue="0.77206932106598991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.24383328045685282" green="0.24383328045685282" blue="0.24383328045685282" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="First" image="calculator.PNG" selectedImage="second" id="acW-dT-cKf"/>
                     <connections>
-                        <outlet property="lblText" destination="dwm-UQ-O4T" id="ips-1U-aHY"/>
+                        <outlet property="lblText" destination="Qui-FL-dBx" id="fem-6K-bXV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -439,6 +438,111 @@
                     <view key="view" contentMode="scaleToFill" id="JZG-L2-pon">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step-Down Buck Convertor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bj7-Wj-qOS">
+                                <rect key="frame" x="47" y="34" width="288" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UoN-Fz-iFq">
+                                <rect key="frame" x="51" y="78" width="279" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ap-vB-CGN">
+                                <rect key="frame" x="60" y="231" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="K" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzm-WU-uom">
+                                <rect key="frame" x="60" y="282" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wT7-VH-U0Y">
+                                <rect key="frame" x="60" y="335" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="dI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE0-hW-OKt">
+                                <rect key="frame" x="60" y="383" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsk-er-G3Q">
+                                <rect key="frame" x="60" y="435" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wV8-aH-2u4">
+                                <rect key="frame" x="60" y="189" width="42" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTf-Wl-aqz">
+                                <rect key="frame" x="142" y="430" width="128" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92385786802030456" green="0.92385786802030456" blue="0.92385786802030456" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.88568275669999996" green="0.52578455359999998" blue="0.74261398219999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="0.88568275669999996" green="0.52578455359999998" blue="0.74261398219999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.88568275669999996" green="0.52578455359999998" blue="0.74261398219999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="6" height="18"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mGV-Ok-QaQ">
+                                <rect key="frame" x="142" y="184" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvn-R2-d7f">
+                                <rect key="frame" x="142" y="229" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mKS-d8-Tjs">
+                                <rect key="frame" x="142" y="278" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bAH-qo-owS">
+                                <rect key="frame" x="142" y="331" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Z6-Yu-oy1">
+                                <rect key="frame" x="142" y="378" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="0.19" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="6xB-Gd-OVq"/>
                     </view>
@@ -446,12 +550,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNo-tI-BNs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1806" y="-321"/>
+            <point key="canvasLocation" x="1805.5999999999999" y="-321.58920539730138"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -583,6 +686,7 @@
                         <outlet property="niValue" destination="9Ps-Wg-OI5" id="sFC-7F-mtQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="394.45277361319341"/>
         </scene>
@@ -624,7 +728,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
+        <image name="calculator.PNG" width="142" height="164"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>

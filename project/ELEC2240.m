@@ -36,5 +36,8 @@
     newValue=[NSString stringWithFormat:@"%.2f",slider.value];
     self.SliderLabel.text=newValue;
 }
+
+
+
 @end
 
