@@ -64,6 +64,14 @@
     self.niValue.text = [NSString stringWithFormat:@"%.25f",ni];
     
 }
+
+- (IBAction)Switch:(UISwitch*)sender {
+    if (sender.on) {
+    self.image.hidden = false;
+} else{
+    self.image.hidden = true;}
+}
+
 - (IBAction)Slider:(id)sender {
     UISlider *slider = (UISlider *)sender;
     NSString *newValue;

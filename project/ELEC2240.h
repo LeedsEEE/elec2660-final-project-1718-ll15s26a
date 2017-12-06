@@ -37,11 +37,13 @@
 @property (strong, nonatomic) IBOutlet UITextField *GvValue;
 @property (strong, nonatomic) IBOutlet UILabel *niLabel;
 @property (strong, nonatomic) IBOutlet UITextField *niValue;
+@property (strong, nonatomic) IBOutlet UIImageView *image;
 
 
 - (IBAction)Slider:(id)sender;
 
 -(IBAction)Calculate:(id)sender;
+- (IBAction)Switch:(UISwitch*)sender;
 
 
 

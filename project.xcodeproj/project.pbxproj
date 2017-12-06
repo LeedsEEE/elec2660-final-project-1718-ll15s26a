@@ -19,6 +19,7 @@
 		B40F56551FC45B97006D42F5 /* App logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B40F56541FC45B96006D42F5 /* App logo.png */; };
 		B4766DB01FD31E9000CD5EE4 /* ELEC2530PowerElec.m in Sources */ = {isa = PBXBuildFile; fileRef = B4766DAF1FD31E9000CD5EE4 /* ELEC2530PowerElec.m */; };
 		B48337E01FD7578E009EE379 /* Datasheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B48337DF1FD7578E009EE379 /* Datasheet.m */; };
+		B4B141111FD8AAE000AE7D8E /* ELEC2240 Cal.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B4B141101FD8AAE000AE7D8E /* ELEC2240 Cal.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		B4766DB11FD31EB000CD5EE4 /* ELEC2530PowerElec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELEC2530PowerElec.h; sourceTree = "<group>"; };
 		B48337DF1FD7578E009EE379 /* Datasheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Datasheet.m; sourceTree = "<group>"; };
 		B48337E11FD757A2009EE379 /* Datasheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Datasheet.h; sourceTree = "<group>"; };
+		B4B141101FD8AAE000AE7D8E /* ELEC2240 Cal.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ELEC2240 Cal.PNG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				B48337DF1FD7578E009EE379 /* Datasheet.m */,
 				B48337E11FD757A2009EE379 /* Datasheet.h */,
 				B40F56281FC45806006D42F5 /* Main.storyboard */,
+				B4B141101FD8AAE000AE7D8E /* ELEC2240 Cal.PNG */,
 				B40F56541FC45B96006D42F5 /* App logo.png */,
 				B40F562B1FC45806006D42F5 /* Assets.xcassets */,
 				B40F562D1FC45806006D42F5 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B141111FD8AAE000AE7D8E /* ELEC2240 Cal.PNG in Resources */,
 				B40F562F1FC45806006D42F5 /* LaunchScreen.storyboard in Resources */,
 				B40F56551FC45B97006D42F5 /* App logo.png in Resources */,
 				B40F562C1FC45806006D42F5 /* Assets.xcassets in Resources */,
