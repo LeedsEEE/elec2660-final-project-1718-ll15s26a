@@ -8,21 +8,42 @@
 
 #import <UIKit/UIKit.h>
 
-@interface  SecondViewController : UIViewController
+@interface  ELEC2240 : UIViewController <UITextFieldDelegate>
+{
+    double Temp;
+    double Eg;
+    double GcCal;
+    double GvCal;
+    double niCal;
+    double ni;
+    double Gc;
+    double Gv;
+    double var1;
+    double var2;
+    double var3;
+    double np;
+    
+    
+}
 @property (strong, nonatomic) IBOutlet UILabel *TitleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *InstLabel;
 @property (strong, nonatomic) IBOutlet UILabel *TempLabel;
-@property (strong, nonatomic) IBOutlet UILabel *SliderLabel;
+@property (strong, nonatomic) IBOutlet UITextField *SliderValue;
 @property (strong, nonatomic) IBOutlet UILabel *EgLabel;
+@property (strong, nonatomic) IBOutlet UITextField *EgValue;
 @property (strong, nonatomic) IBOutlet UILabel *GcLabel;
-@property (strong, nonatomic) IBOutlet UILabel *GcValue;
+@property (strong, nonatomic) IBOutlet UITextField *GcValue;
 @property (strong, nonatomic) IBOutlet UILabel *GvLabel;
-@property (strong, nonatomic) IBOutlet UILabel *GvValue;
-@property (strong, nonatomic) IBOutlet UIView *niLabel;
-@property (strong, nonatomic) IBOutlet UILabel *niValue;
+@property (strong, nonatomic) IBOutlet UITextField *GvValue;
+@property (strong, nonatomic) IBOutlet UILabel *niLabel;
+@property (strong, nonatomic) IBOutlet UITextField *niValue;
 
-- (IBAction)EgValue:(id)sender;
+
 - (IBAction)Slider:(id)sender;
+
+-(IBAction)Calculate:(id)sender;
+
+
 
 
 @end

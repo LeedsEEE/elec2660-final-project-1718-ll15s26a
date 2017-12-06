@@ -17,12 +17,8 @@
 		B40F563C1FC45806006D42F5 /* projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F563B1FC45806006D42F5 /* projectTests.m */; };
 		B40F56471FC45807006D42F5 /* projectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F56461FC45807006D42F5 /* projectUITests.m */; };
 		B40F56551FC45B97006D42F5 /* App logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B40F56541FC45B96006D42F5 /* App logo.png */; };
-		B40F785D1FD5E41A00CBBAA6 /* calculator.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B40F785C1FD5E41A00CBBAA6 /* calculator.PNG */; };
-		B40F785F1FD5E42300CBBAA6 /* datasheet.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B40F785E1FD5E42200CBBAA6 /* datasheet.PNG */; };
-		B40F78611FD5E42800CBBAA6 /* powerElec.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B40F78601FD5E42700CBBAA6 /* powerElec.PNG */; };
-		B40F78631FD5E42D00CBBAA6 /* Transistors.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B40F78621FD5E42D00CBBAA6 /* Transistors.PNG */; };
 		B4766DB01FD31E9000CD5EE4 /* ELEC2530PowerElec.m in Sources */ = {isa = PBXBuildFile; fileRef = B4766DAF1FD31E9000CD5EE4 /* ELEC2530PowerElec.m */; };
-		B4D955F51FC595590041151E /* calc screen.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B4D955F41FC595590041151E /* calc screen.PNG */; };
+		B48337E01FD7578E009EE379 /* Datasheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B48337DF1FD7578E009EE379 /* Datasheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,13 +58,10 @@
 		B40F56461FC45807006D42F5 /* projectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectUITests.m; sourceTree = "<group>"; };
 		B40F56481FC45807006D42F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B40F56541FC45B96006D42F5 /* App logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App logo.png"; sourceTree = "<group>"; };
-		B40F785C1FD5E41A00CBBAA6 /* calculator.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.PNG; sourceTree = "<group>"; };
-		B40F785E1FD5E42200CBBAA6 /* datasheet.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datasheet.PNG; sourceTree = "<group>"; };
-		B40F78601FD5E42700CBBAA6 /* powerElec.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerElec.PNG; sourceTree = "<group>"; };
-		B40F78621FD5E42D00CBBAA6 /* Transistors.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Transistors.PNG; sourceTree = "<group>"; };
 		B4766DAF1FD31E9000CD5EE4 /* ELEC2530PowerElec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELEC2530PowerElec.m; sourceTree = "<group>"; };
 		B4766DB11FD31EB000CD5EE4 /* ELEC2530PowerElec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELEC2530PowerElec.h; sourceTree = "<group>"; };
-		B4D955F41FC595590041151E /* calc screen.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calc screen.PNG"; sourceTree = "<group>"; };
+		B48337DF1FD7578E009EE379 /* Datasheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Datasheet.m; sourceTree = "<group>"; };
+		B48337E11FD757A2009EE379 /* Datasheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Datasheet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,19 +114,16 @@
 			children = (
 				B40F561F1FC45806006D42F5 /* AppDelegate.h */,
 				B40F56201FC45806006D42F5 /* AppDelegate.m */,
-				B40F56221FC45806006D42F5 /* BasicSciCalculator.h */,
 				B40F56231FC45806006D42F5 /* BasicSciCalculator.m */,
+				B40F56221FC45806006D42F5 /* BasicSciCalculator.h */,
 				B4766DAF1FD31E9000CD5EE4 /* ELEC2530PowerElec.m */,
 				B4766DB11FD31EB000CD5EE4 /* ELEC2530PowerElec.h */,
-				B40F56251FC45806006D42F5 /* ELEC2240.h */,
 				B40F56261FC45806006D42F5 /* ELEC2240.m */,
+				B40F56251FC45806006D42F5 /* ELEC2240.h */,
+				B48337DF1FD7578E009EE379 /* Datasheet.m */,
+				B48337E11FD757A2009EE379 /* Datasheet.h */,
 				B40F56281FC45806006D42F5 /* Main.storyboard */,
-				B40F78621FD5E42D00CBBAA6 /* Transistors.PNG */,
-				B40F78601FD5E42700CBBAA6 /* powerElec.PNG */,
-				B40F785E1FD5E42200CBBAA6 /* datasheet.PNG */,
-				B40F785C1FD5E41A00CBBAA6 /* calculator.PNG */,
 				B40F56541FC45B96006D42F5 /* App logo.png */,
-				B4D955F41FC595590041151E /* calc screen.PNG */,
 				B40F562B1FC45806006D42F5 /* Assets.xcassets */,
 				B40F562D1FC45806006D42F5 /* LaunchScreen.storyboard */,
 				B40F56301FC45806006D42F5 /* Info.plist */,
@@ -267,14 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B40F562F1FC45806006D42F5 /* LaunchScreen.storyboard in Resources */,
-				B40F785D1FD5E41A00CBBAA6 /* calculator.PNG in Resources */,
 				B40F56551FC45B97006D42F5 /* App logo.png in Resources */,
 				B40F562C1FC45806006D42F5 /* Assets.xcassets in Resources */,
-				B40F785F1FD5E42300CBBAA6 /* datasheet.PNG in Resources */,
-				B40F78631FD5E42D00CBBAA6 /* Transistors.PNG in Resources */,
 				B40F562A1FC45806006D42F5 /* Main.storyboard in Resources */,
-				B40F78611FD5E42800CBBAA6 /* powerElec.PNG in Resources */,
-				B4D955F51FC595590041151E /* calc screen.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B40F56271FC45806006D42F5 /* ELEC2240.m in Sources */,
+				B48337E01FD7578E009EE379 /* Datasheet.m in Sources */,
 				B40F56211FC45806006D42F5 /* AppDelegate.m in Sources */,
 				B40F56321FC45806006D42F5 /* main.m in Sources */,
 				B40F56241FC45806006D42F5 /* BasicSciCalculator.m in Sources */,

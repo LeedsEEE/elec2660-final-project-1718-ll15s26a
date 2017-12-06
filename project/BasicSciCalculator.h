@@ -35,5 +35,6 @@
 - (IBAction)clearTotal:(id)sender;
 - (IBAction)DEL:(id)sender;
 - (IBAction)DecimalPoint:(id)sender;
+- (IBAction)Exponential:(id)sender;
 @end
 

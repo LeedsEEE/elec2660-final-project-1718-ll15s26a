@@ -93,8 +93,11 @@
             total= num1 - num2;
             else if (operation==MULTIPLY)
                 total= num1 * num2;
+            else if (operation==exp)
+                total = exp(num1) + exp(num2);
+    
                 else total= (double)num1 / (double)num2;
-                    
+    
                     enteredNo=[NSString stringWithFormat:@"%.2f", total];
                     [self printNo];
     num1=0;
@@ -144,16 +147,20 @@
     int length = [Number length];
     NSString *temp =[Number substringToIndex:length-1];
     
-    if ([temp length]==0){
+        if ([temp length]==0){
         temp=@"0";
         [lblText setText:[NSString stringWithFormat:@"%@",temp]];
     }
     [lblText setText:temp];
-    
 }
 
 - (IBAction)DecimalPoint:(id)sender {
     enteredNo=[enteredNo stringByAppendingString:@"."];
     [self printNo];
+}
+
+- (IBAction)Exponential:(id)sender {
+    operation = exp;
+
 }
 @end
