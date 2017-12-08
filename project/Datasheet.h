@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+    //this tab only views some values for both modules as labels 
 @interface  Datasheet : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *Title;
 @property (strong, nonatomic) IBOutlet UILabel *ELEC2240bar;

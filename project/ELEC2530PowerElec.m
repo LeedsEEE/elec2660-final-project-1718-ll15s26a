@@ -46,11 +46,11 @@
     [self.fsTextfield endEditing:YES];
     [self.dITextfield endEditing:YES];
     
-    Vi = [self.ViTextfield.text doubleValue];
-    Vo = [self.VoTextfield.text doubleValue];
-    fs = [self.fsTextfield.text doubleValue];
-    K = [self.KTextfield.text doubleValue];
-    di = [self.dITextfield.text doubleValue];
+    Vi = [self.ViTextfield.text doubleValue];       //setting the answers data type to double
+    Vo = [self.VoTextfield.text doubleValue];       //
+    fs = [self.fsTextfield.text doubleValue];       //
+    K = [self.KTextfield.text doubleValue];         //
+    di = [self.dITextfield.text doubleValue];       //
     
     
     answer = K*(Vi-Vo)/(fs*di);
