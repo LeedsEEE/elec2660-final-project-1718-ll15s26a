@@ -12,17 +12,17 @@
 @end
 
 @implementation ELEC2530PowerElec
-@synthesize ViTextfield, VoTextfield, KTextfield, fsTextfield, dITextfield, LTextfield;
+@synthesize ViTextfield, VoTextfield, KTextfield, fsTextfield, dITextfield, LTextfield; //synthesizing the variables used in this tab
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.VoTextfield.delegate = self;
-    self.LTextfield.delegate = self;
-    self.ViTextfield.delegate = self;
-    self.KTextfield.delegate = self;
-    self.fsTextfield.delegate = self;
-    self.dITextfield.delegate = self;
+    self.VoTextfield.delegate = self;           //delegating the variables from the textfields (entered numbers in the textfields)
+    self.LTextfield.delegate = self;            //
+    self.ViTextfield.delegate = self;           //
+    self.KTextfield.delegate = self;            //
+    self.fsTextfield.delegate = self;           //
+    self.dITextfield.delegate = self;           //
 }
 
 
@@ -32,12 +32,12 @@
 }
 
 
--(bool)textFieldShouldReturn:(UITextField *)textField {
+-(bool)textFieldShouldReturn:(UITextField *)textField {  //this is to be able to use the return button on the virtual keyboard https://stackoverflow.com/questions/3573955/how-to-hide-the-keyboard-when-i-press-return-key-in-a-uitextfield
     [textField resignFirstResponder];
     return YES;
 }
 
-- (IBAction)Calculate:(id)sender {
+- (IBAction)Calculate:(id)sender {      //this is linked to the Calculate button
     
     [self.VoTextfield endEditing:YES];
     [self.ViTextfield endEditing:YES];
@@ -55,7 +55,7 @@
     
     answer = K*(Vi-Vo)/(fs*di);
     
-    self.LTextfield.text = [NSString stringWithFormat:@"%.5f",answer];
+    self.LTextfield.text = [NSString stringWithFormat:@"%.5f",answer];  //this outputs the answer to the user in the L textfield after the numbers entered in the textfields have been used for the calculation
 }
 
 //

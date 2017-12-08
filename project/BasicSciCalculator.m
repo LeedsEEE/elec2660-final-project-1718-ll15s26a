@@ -12,6 +12,11 @@
 
 @end
 @implementation FirstViewController
+
+//I've used the following youtube video to support me while builing the first tab of my app (the Calculator)
+//https://www.youtube.com/watch?v=CqqJ5Pz3tus
+
+
 @synthesize num1, num2, total, operation, enteredNo, lblText;
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,69 +27,68 @@
     [self setTotal: 0.0];
     [self setEnteredNo: @"0"];
     
-}
-
--(void) printNo{
-    
-    [lblText setText: enteredNo];
-}
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)Press9:(id)sender {
+    }
+-(void) printNo {
+    
+    [lblText setText: enteredNo];
+    }
+- (IBAction)Press9:(id)sender {      //number 9 button
     enteredNo= [ enteredNo stringByAppendingString:@"9"];
     [self printNo];
-}
+    }
 
-- (IBAction)Press8:(id)sender {
+- (IBAction)Press8:(id)sender {     //number 8 button
     enteredNo= [ enteredNo stringByAppendingString:@"8"];
     [self printNo];
     
-}
+    }
 
-- (IBAction)Press7:(id)sender {
+- (IBAction)Press7:(id)sender {     //number 7 button
     enteredNo= [ enteredNo stringByAppendingString:@"7"];
     [self printNo];
     
-}
-- (IBAction)Press6:(id)sender {
+    }
+- (IBAction)Press6:(id)sender {     //number 6 button
     enteredNo= [ enteredNo stringByAppendingString:@"6"];
     [self printNo];
     
-}
-- (IBAction)Press5:(id)sender {
+    }
+- (IBAction)Press5:(id)sender {     //number 5 button
     enteredNo= [ enteredNo stringByAppendingString:@"5"];
     [self printNo];
     
-}
-- (IBAction)Press4:(id)sender {
+    }
+- (IBAction)Press4:(id)sender {     //number 4 button
     enteredNo= [ enteredNo stringByAppendingString:@"4"];
     [self printNo];
     
-}
-- (IBAction)Press3:(id)sender {
+    }
+- (IBAction)Press3:(id)sender {     //number 3 button
     enteredNo= [ enteredNo stringByAppendingString:@"3"];
     [self printNo];
     
-}
-- (IBAction)Press2:(id)sender {
+    }
+- (IBAction)Press2:(id)sender {     //number 2 button
     enteredNo= [ enteredNo stringByAppendingString:@"2"];
     [self printNo];
     
-}
+    }
 
-- (IBAction)Press1:(id)sender {
+- (IBAction)Press1:(id)sender {     //number 1 button
     enteredNo= [ enteredNo stringByAppendingString:@"1"];
     [self printNo];
     
-}
-- (IBAction)Press0:(id)sender {
+    }
+- (IBAction)Press0:(id)sender {     ////number 0 button
     enteredNo= [ enteredNo stringByAppendingString:@"0"];
     [self printNo];
-}
-- (IBAction)Calculate:(id)sender {
+    }
+- (IBAction)Calculate:(id)sender {  //this is for the equal sign...it calculates the two numbers num1 and num2 depending on the operation (+,-,*,/)...in this case an if statement is used
     num2 = [enteredNo integerValue];
     
     if (operation==PLUS)
@@ -104,45 +108,42 @@
     num2=0;
     total= 0.0;
     
-    
-}
+    }
 
--(void)storeNum1
-{
+-(void)storeNum1 { //this is to store the entered b=number as num1 and reset the enteredno variable so that num2 can be entered
     num1 = [enteredNo integerValue];
     enteredNo= @"0";
     [self printNo];
-}
+    }
 
-- (IBAction)setMultiply:(id)sender {
+- (IBAction)setMultiply:(id)sender { //this it to set the multiplication operation
     [self storeNum1];
     operation= MULTIPLY;
-}
+    }
 
-- (IBAction)setDivide:(id)sender {
+- (IBAction)setDivide:(id)sender {  //this it to set the division operation
     [self storeNum1];
     operation= DIVIDE;
     
-}
+    }
 
-- (IBAction)setPlus:(id)sender {
+- (IBAction)setPlus:(id)sender {  //this it to set the addition operation
     [self storeNum1];
     operation=PLUS;
-}
+    
+    }
 
-- (IBAction)setMinus:(id)sender {
+- (IBAction)setMinus:(id)sender {  //this it to set the subtraction operation
     [self storeNum1];
     operation=MINUS;
-    
-}
+    }
 
-- (IBAction)clearTotal:(id)sender {
+- (IBAction)clearTotal:(id)sender { //this is to clear the calculation so that a new calcuation can take place
     self.enteredNo= @"0";
     [self printNo];
-    
-}
+    }
 
-- (IBAction)DEL:(id)sender {
+- (IBAction)DEL:(id)sender {  //this allows the user to delete an enetered number one by one instead of deleteing the whole calculation https://stackoverflow.com/questions/13570657/making-a-backspace-button-for-a-calculator
     NSString *Number = [lblText text];
     int length = [Number length];
     NSString *temp =[Number substringToIndex:length-1];
@@ -150,17 +151,17 @@
         if ([temp length]==0){
         temp=@"0";
         [lblText setText:[NSString stringWithFormat:@"%@",temp]];
-    }
+        }
     [lblText setText:temp];
-}
+    }
 
 - (IBAction)DecimalPoint:(id)sender {
     enteredNo=[enteredNo stringByAppendingString:@"."];
     [self printNo];
-}
+    }
 
-- (IBAction)Exponential:(id)sender {
+- (IBAction)Exponential:(id)sender {    //exponential function
     operation = exp;
 
-}
+    }
 @end

@@ -41,8 +41,7 @@
 
 
 - (IBAction)Slider:(id)sender;
-
--(IBAction)Calculate:(id)sender;
+- (IBAction)Calculate:(id)sender;
 - (IBAction)Switch:(UISwitch*)sender;
 
 

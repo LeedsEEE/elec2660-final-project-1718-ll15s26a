@@ -822,6 +822,21 @@
                     <tabBarItem key="tabBarItem" title="Datasheet" id="oTJ-ky-h5c">
                         <color key="badgeColor" red="0.88568275669999996" green="0.52578455359999998" blue="0.74261398219999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="ELEC2240bar" destination="SU7-xe-avz" id="q5z-vF-aSC"/>
+                        <outlet property="ELEC2530bar" destination="5F9-VU-fEr" id="1nd-ms-eeh"/>
+                        <outlet property="GcLabel" destination="Ysg-Pg-Pj1" id="gu3-6P-Rif"/>
+                        <outlet property="GvLabel" destination="4xy-fl-no8" id="0Md-H2-7YI"/>
+                        <outlet property="KbLabel" destination="AKo-H3-aiG" id="k8s-S3-QV5"/>
+                        <outlet property="LLabel" destination="SFA-ga-NBU" id="zqW-jh-Byh"/>
+                        <outlet property="MeLabel" destination="xFK-ma-1xL" id="CRo-8W-Mof"/>
+                        <outlet property="MhLabel" destination="N4L-sW-Pvx" id="4ao-aP-ja4"/>
+                        <outlet property="MoLabel" destination="CMv-gd-Abl" id="vDn-J6-8XG"/>
+                        <outlet property="Title" destination="2sZ-BI-35n" id="2XW-P5-Jv4"/>
+                        <outlet property="eVLabel" destination="Bol-Tw-DdQ" id="y9t-mE-b1Q"/>
+                        <outlet property="hLabel" destination="bYf-jp-bB0" id="8mF-lY-c1P"/>
+                        <outlet property="niLabel" destination="MFl-Wn-MDJ" id="O10-Ol-yre"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0wy-0I-w9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -838,9 +853,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="H1A-JP-L47" kind="relationship" relationship="viewControllers" id="N5U-82-yeq"/>
-                        <segue destination="yDR-Xm-cTx" kind="relationship" relationship="viewControllers" id="MaW-g7-V3J"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="XOb-Wz-ATO"/>
+                        <segue destination="H1A-JP-L47" kind="relationship" relationship="viewControllers" id="1xI-YK-sHG"/>
+                        <segue destination="yDR-Xm-cTx" kind="relationship" relationship="viewControllers" id="KV6-oH-qOM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
